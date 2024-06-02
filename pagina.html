@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nightmare's Personal Page - Robótica y Mecatrónica</title>
+    <meta name="description" content="Página personal de Nightmare, entusiasta de la robótica y la mecatrónica. Explora mis proyectos y contáctame.">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 0.5em 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        section {
+            padding: 2em;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .project {
+            margin: 1em 0;
+            padding: 1em;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            margin-bottom: 1em;
+            padding: 0.5em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            padding: 0.5em;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a la Página Personal de Nightmare</h1>
+    </header>
+    <nav>
+        <a href="#about">Sobre Mí</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <section id="about">
+        <h2>Sobre Mí</h2>
+        <p>Hola, soy Nightmare, un apasionado de la robótica y la mecatrónica. Me gusta crear muñecos con materiales reciclables, LEGO, hojas de foami y foami moldeable. Estudio mecatrónica y disfruto aprendiendo a programar en Arduino. Además, tengo un negocio de impresión 3D donde ofrezco servicios de impresión y manufactura de PCB.</p>
+    </section>
+    <section id="projects">
+        <h2>Proyectos</h2>
+        <div class="project">
+            <h3>Proyecto de Robótica</h3>
+            <p>Desarrollo de un robot autónomo utilizando sensores y programación en Arduino. Este proyecto me ha permitido aplicar mis conocimientos en mecatrónica y programación para crear un dispositivo funcional y útil.</p>
+        </div>
+        <div class="project">
+            <h3>Impresión 3D</h3>
+            <p>He trabajado en la impresión de piezas personalizadas y prototipos para diferentes clientes, utilizando mi impresora 3D y materiales de alta calidad. Este proyecto incluye la creación de piezas decorativas, componentes mecánicos y modelos educativos.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form class="contact-form" action="https://formspree.io/f/mjvnqrwq" method="POST">
+            <input type="text" name="name" placeholder="Tu Nombre" required>
+            <input type="email" name="email" placeholder="Tu Email" required>
+            <textarea name="message" rows="5" placeholder="Tu Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Nightmare. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
